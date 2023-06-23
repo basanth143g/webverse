@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	background-color: #f2f2f2;
 	font-family: Arial, sans-serif;
@@ -64,4 +65,72 @@ input[type="submit"]:hover {
 input[type="submit"]:active {
 	background-color: #1e4422;
 	transition: background-color 0.1s ease;
+=======
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+
+.login-box {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	margin: 100px auto;
+	padding: 20px;
+	text-align: center;
+	width: 400px;
+}
+
+h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	border-color: #4CAF50;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 10px;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+input[type="submit"]:active {
+	background-color: #1e4422;
+	transition: background-color 0.1s ease;
+>>>>>>> 26a8401f7906fb861432fbbc943d204d028d60de
 }
